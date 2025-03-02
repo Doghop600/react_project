@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2D2D;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navlist {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist li {
+    margin: 0 15px;
+}
+
+.navlist a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.btn1 {
+    background-color: #2D2D2D;
+    border: none;
+    color: #AC6CFF;
+    padding: 12px 25px;
+    font-size: 16px;
+}
+
+.btn2 {
+    background-color: #AC6CFF;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 15px;
+}

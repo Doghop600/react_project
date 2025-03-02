@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+.metricsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .metricCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .metricImage {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
+  .metricTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .metricDescription {
+    color: white;
+  }
+
+.container {
+  background-color: #AC6CFF;
+  padding-top: 30px;
+}

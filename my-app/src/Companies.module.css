@@ -1,0 +1,40 @@
+.companies {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #6b33ce; /* Цвет фона как в макете */
+  }
+  
+  .companies p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff; /* Белый текст */
+    margin-bottom: 20px;
+  }
+  
+  .companies-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Отступы между логотипами */
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Полупрозрачный фон */
+    border-radius: 20px;
+    max-width: 1320px; /* Ширина как в макете */
+    margin: 0 auto; /* Центрирование */
+  }
+  
+  .companies-logos img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; /* Делаем логотипы круглыми */
+    background: #fff; /* Белый фон для логотипов */
+    padding: 10px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  }
+  
+  .companies-logos img:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+    filter: brightness(1.2);
+  }
+  

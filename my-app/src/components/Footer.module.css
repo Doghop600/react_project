@@ -1,0 +1,84 @@
+/* Общий контейнер футера */
+.footerSection {
+  background-color: #2C2E33; /* Темный фон */
+  color: white;
+  padding: 50px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Контейнер для секций (Our Services, Explore More, Contact Us) */
+.Sections {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  gap: 80px; /* Расстояние между колонками */
+  align-items: flex-start;
+}
+
+/* Общий стиль секций */
+.footerService {
+  min-width: 250px;
+}
+
+/* Заголовки секций */
+.footerService h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+/* Списки */
+.footerService ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerService ul li {
+  margin-bottom: 10px;
+}
+
+.footerService ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  display: inline-block; /* Убираем подчеркивание, делаем ссылки блоками */
+}
+
+.footerService ul li a:hover {
+  color: #fff;
+}
+
+/* Контактные данные */
+.footerService ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Нижняя часть футера */
+.footerBottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.footerLink {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footerLink:hover {
+  color: #fff;
+}
+
+.footerText {
+  color: white;
+}
