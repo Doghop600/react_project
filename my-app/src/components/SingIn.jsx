@@ -34,7 +34,7 @@ const SingIn = () => {
         <form className={styles.form}>
             <Input placeholder="enter email" onChange={handleEmailInputOnChange} value={email} className={styles.input} type="email"/>
             <Input placeholder="enter password" onChange={handlePassowordInputOnChange} value={password} className={styles.input} type="password"/>
-            <Button onClick={handleBtnSingInClick} className={styles.button} value={text}>Sing In</Button>\
+            <Button onClick={handleBtnSingInClick} className={styles.button} value={text}>Sing In</Button>
         </form>
     </div>
   )
