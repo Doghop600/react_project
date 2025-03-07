@@ -1,13 +1,17 @@
 import React from 'react'
 import styles from './Header.module.css'
 import Button from './Button'
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
+  const navigate = useNavigate()
+  
   const handleSingInBtnClick = () => {
     console.log(1)
   }
   const handleSingUpBtnClick = () => {
     console.log(2)
+    navigate('/auth')
   }
   return (
     <>

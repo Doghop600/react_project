@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import SingIn from './components/SingIn'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import User from './components/User'
+import Auth from './components/Auth'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<SingIn />} />
+          <Route path="/auth" element={<Auth />} />  {/* Auth page */}
           <Route path="/main" element={
             <>
               <Header />

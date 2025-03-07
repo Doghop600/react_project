@@ -1,0 +1,35 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Центрируем по вертикали */
+}
+
+.button {
+    display: block;
+    width: 80%;
+    max-width: 250px; /* Сделал кнопку чуть меньше */
+    margin: 20px auto 0;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px; /* Уменьшил шрифт */
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
